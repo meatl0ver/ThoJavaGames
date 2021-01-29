@@ -20,7 +20,7 @@ public class SecondTask {
     //вторая игра
     public static void play(int countAttempts) {
         String guessedWord = getRandomWord(SecondTask.WORDS);
-        StringBuilder res= new StringBuilder(); //использовал StringBuilder, не придумал как собрать строку с # без него
+        StringBuilder res= new StringBuilder();
         System.out.println("==========Начало игры!==========");
         System.out.printf("Угадай слово! У тебя %d попыток!\n", countAttempts);
         System.out.println("Загаданные слова:");
